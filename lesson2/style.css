@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+.login-wrap {
+    width: 400px;
+    margin:0 auto;
+    margin-top: 200px;
+    background: #d3d3d3;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius:  2px;
+}
+
+.ctrl {
+    margin-top: 10px;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+
+.ctrl span {
+    display: inline-block;
+    width: 15%;
+    float: left;
+    font-size: 18px;
+}
+.ctrl input[type="text"], .ctrl input[type="password"] {
+    display: inline-block;
+    width: 85%;
+    border: 0;
+    background: #fff;
+    height: 100%;
+    float: left;
+    padding-left: 10px;
+    border-radius:  2px;
+}
+
+.ctrl input[type="checkbox"] {
+    display: inline-block;
+    width:0;
+    height: 0;
+    font-size: 0;
+}
+
+.ctrl label {
+    display: inline-block;
+    margin-top:-4px;
+    padding-left: 56px;
+}
+
+
+.ctrl label span {
+    font-size: 12px;
+    width: auto;
+    display: inline-block;
+    float: none;
+    height: 20px;
+    line-height: 20px;
+}
+
+.ctrl label i {
+    font-size: 12px;
+    margin-right:4px;
+}
+
+.ctrl .btn {
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    border-radius:  2px;
+}
+
+.ctrl .btn.login {
+    background: #233cbd;
+    color: #fff;
+}
+
+.ctrl .btn.reg {
+    background: #219c1a;
+    color: #fff;
+}
