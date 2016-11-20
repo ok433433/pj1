@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+a, a:active, a:visited, a:hover {
+    text-decoration: none;
+}
+
+.login-warp {
+   width: 300px;
+   margin:0 auto;
+   margin-top: 300px;
+   background: #dedada;
+   border: 1px solid #eee;
+   border-radius: 2px;
+   padding: 20px;
+}
+
+.ctrl {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.ctrl span {
+    display: inline-block;
+    box-sizing: border-box;
+    float:left;
+    width: 15%;
+}
+
+.ctrl input[type="text"], .ctrl input[type="password"]  {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 80%;
+    border:0;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    float: left;
+    width: 85%;
+    
+}
+
+.ctrl .btn {
+    display: block;
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px auto;
+}
+
+.ctrl .btn.login {
+    background: #3779ce;
+    color: #fff;
+}
+.ctrl .btn.reg {
+    background: #269c18;
+    color: #fff;
+}
