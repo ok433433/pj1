@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>p1.html</title>
+    <meta charset="utf-8">
+    <style>
+        h1 {
+            color: #f00;
+        }
+        .content{
+            color: #00e;
+        }
+        /*父子级*/
+        .title h1 {
+            color: blueviolet;
+        }
+        /*明确父子级*/
+        .title > div > .dd {
+
+        }
+        /*同级*/
+        .conent.blue {
+            color: blue;
+        }
+        /*兄弟级*/
+        .p1 + .p2 {
+            color: #f00;
+        }
+
+        h2 {
+            color: inherit;
+        }
+        #id1 {
+
+        }
+    </style>
+    <link rel="stylesheet" href="./src/index.css">
+</head>
+
+<body>
+    <div class="title" style="color:#ddd;" >
+        <div class="dd">
+            dd
+        </div>
+        <div>
+            <div class="dd">dd</div>
+             <h1 >Hello world!</h1>
+        </div>
+      
+       <h2>333</h2>
+    </div> 
+
+    <div class="content blue">
+        <p class="p1">行111111</p>
+        <p class="p2">行22222</p>
+    </div>
+    <script>
+        // 内联脚本
+    </script>
+    <!--外部脚本-->
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
